@@ -2,18 +2,9 @@ body{
     line-height: 1.3;
     background-color: #252529;
     color: #fff;
+    font-size: 2rem;
 }
-.text-overlay {
-    position: absolute;
-    top: 65%;
-    left: 30%;
-    transform: translate(-20%,-50%);
-    color: #fff;
-    font-size: 5rem;
-    font-weight: bold;
-    /* text-align: right; */
-    text-align: center;
-}
+
 .image-container img {
     width: 100%;
     height: 550px;   
