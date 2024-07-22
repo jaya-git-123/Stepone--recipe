@@ -11,7 +11,8 @@ body{
     color: #fff;
     font-size: 5rem;
     font-weight: bold;
-    text-align: right;
+    /* text-align: right; */
+    text-align: center;
 }
 .image-container img {
     width: 100%;
