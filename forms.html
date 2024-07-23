@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1><center>FORMS IN HTML</center></h1>
+    <form action="result.html" method="post">
+        <fieldset>
+<legend>User inputs</legend>
+<table width="50%" cellspacing="10" cellpadding="5">
+    <tr>
+        <td><label for="firstname">Enter First name:</td>
+            <td><input type="text" id="text" name="firstname" placeholder="Enter your first name">
+            </td>
+        </label></td>
+    </tr>
+    <tr>
+        <td><label for="lasttname">Enter Last name:</td>
+            <td><input type="text" id="text" name="lastname" placeholder="Enter your last name">
+            </td>
+        </label></td>
+    </tr>
+    <tr>
+        <td><label for="password">Enter password:</td>
+            <td><input type="password" id="password" name="password" placeholder="Enter password">
+            </td>
+        </label></td>
+    </tr>
+    <tr>
+        <td><label for="confirm-password">Confirm-password:</td>
+            <td><input type="password" id="confirm-password" name="confirm-password" placeholder="confirm-password">
+            </td>
+        </label></td>
+    </tr>
+    <tr>
+        <td><label for="email">Enter Email:</label></td>
+        <td><input type="email" name="email" id="email" placeholder="Enter email"></td>
+    </tr>
+    <tr>
+        <td><label for="mobile-number">Enter Mobile number:</label></td>
+        <td><input type="number" name="mobile-number" id="mobile-number" placeholder="Enter mobile number">
+        </td>
+    </tr>
+    <tr>
+        <td><label for="dob">Enter DOB:</label></td>
+        <td><input type="date" name="dob" id="dob"></td>
+    </tr>
+    <tr>
+        <td><label for="address">Enter Address:</label></td>
+        <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+    </tr>
+</table>
+</fieldset>
+<fieldset>
+    <legend>Options</legend>
+    <table width="50%" cellspacing="10" cellpadding="5">
+        <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+                <input type="radio" name="gender" id="gender-male"> <span>Male</span>
+                <input type="radio" name="gender" id="gender-female"> <span>Female</span>
+                <input type="radio" name="gender" id="gender-other"> <span>Other</span>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="hobbies">Hobbies:</label></td>
+            <td>
+                <input type="checkbox" name="Watching TV" id="Watching TV"><span>Watching TV</span>
+                <input type="checkbox" name="Cooking" id="Cooking"> <span>Cooking</span>
+                <input type="checkbox" name="football" id="football"> <span>Football</span>
+                <input type="checkbox" name="other" id="other"> <span>Others</span>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="subjects">Select Subjects:</label></td>
+            <td><select name="subjects" id="subjects">
+                    <option value="Tamil">Tamil</option>
+                    <option value="English">English</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Science">Science</option>
+                    <option value="S.S">S.S</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td><label for="multi-subjects">Select Subjects:</label></td>
+            <td><select name="multi-subjects" id="multi-subjects" multiple>
+                    <option value="CA">CA</option>
+                    <option value="CS">CS</option>
+                    <option value="Accounts">Accounts</option>
+                    <option value="Economics">Economics</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td><label for="file">Upload Marksheet:</label></td>
+            <td><input type="file" name="file" id="file"></td>
+        </tr>
+    </table>
+</fieldset>
+<fieldset>
+    <legend>Buttons</legend>
+    <table>
+        <tr>
+            <td><input type="submit" value="Register"></td>
+            <td><input type="reset" value="Clear"></td>
+        </tr>
+    </table>
+</fieldset>
+
+
+
+    </form>
+
+    <tr>
+        <td></td>
+    </tr>
+    
+</body>
+</html>
