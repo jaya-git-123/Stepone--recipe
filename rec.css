@@ -1,10 +1,23 @@
 body{
+    margin-left: 14%;
+    margin-right: 14%;
     line-height: 1.3;
     background-color: #252529;
     color: #fff;
-    font-size: 2rem;
 }
-
+image-container {
+    position: relative;
+}
+.text-overlay {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-20%,-50%);
+    color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: right;
+}
 .image-container img {
     width: 100%;
     height: 550px;   
@@ -13,7 +26,7 @@ body{
     background-color: hwb(0 40% 59%);
     padding: 20px;
     border: 1px solid #ddd;
-    width: 100%;
+    width: 925px;
     color: #f3f3f5;
 }
 .box h2 {
@@ -42,6 +55,3 @@ body{
     color: #333;
     margin: 0;
  }
- image-container {
-    position: relative;
-}
